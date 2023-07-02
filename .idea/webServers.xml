@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="86737aa7-3827-4fc6-9e83-646ae181651a" name="code-wars" url="https://ddc-web-student.cnm.edu/~jwilliams261/code-wars/">
+        <fileTransfer rootFolder="/home/jwilliams261/public_html/code-wars" accessType="SFTP" host="ddc-web-student.cnm.edu" port="22" sshConfigId="175fe6f1-6816-4863-ba08-dfd881ab539e" sshConfig="jwilliams261@ddc-web-student.cnm.edu:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
