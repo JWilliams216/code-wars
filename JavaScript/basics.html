@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<h3>Chapter One</h3>
+<ol>
+    <li>
+        let is a keyword that we use to create a new variable.
+    </li>
+    <li>
+        It is then followed by the name of the variable.
+    </li>
+    <li>
+        Then followed by the equal sign = which assigns it (or gives it a value)
+    </li>
+    <li>
+        Then followed by the value of the variable.
+    </li>
+</ol>
+<p>
+    Make sure to give descriptive names for your variables.
+</p>
+
+<h3>Chapter Two</h3>
+<p>
+    The + operator adds the 2 numbers on its left and right
+</p>
+<p>
+    The * operator multiplies the 2 numbers on its left and right
+</p>
+
+<p>
+    A function is a reusable piece of code that performs some logic and gives you a result
+</p>
+<p>
+    The return keyword allows the function to give the result of its computation.
+</p>
+<p>
+    return keyword can only be used inside a function.
+</p>
+
+<h3>Chapter Three</h3>
+<p>
+    A function is a reusable piece of code that performs some logic and gives you a result
+</p>
+<p>
+    The return keyword allows the function to give the result of its computation.
+</p>
+<p>
+    return keyword can only be used inside a function.
+</p>
+<p>
+    A parameter is a variable that a function receives.
+</p>
+<p>
+    Most functions will use that variable they receive and will compute the result based on it.
+</p>
+<p>
+    To call a function, you have to start with its name then opening parentheses (, then the value you want to give to the parameter and then a closing parenthesis )
+</p>
+
+<h3>Chapter Four</h3>
+<p>
+    Functions can have multiple parameters, they should be separated by a comma (and a space for readability)
+</p>
+<p>
+    The argument is a value passed to a function. The argument becomes the parameter for that specific function call.
+</p>
+<p>
+    The parameters of a function are only accessible inside that function. (This concept is called variable scope)
+</p>
+<p>
+    You can store/save the result of a function in a variable.
+</p>
+
+<h3>Project One</h3>
+<h4>Calculator</h4>
+
+<p>
+    Define a variable. Example: let year = 2020
+</p>
+<p>
+    Use an existing variable. Example: year (assuming it was already defined)
+</p>
+<p>
+    Use functions to reuse logic in your code. Example the function sum that we defined
+</p>
+<p>
+    Using return inside a function which represents the result of the function
+</p>
+<p>
+    Using the following operators to do mathematical computations: + - * /
+</p>
+<p>
+    + (add), * (multiply), - (subtract), / (divide)
+</p>
+
+<h3>Intro into Strings</h3>
+<h4>Chapter One</h4>
+<p>
+    A string is a text, a set of characters that you may write to represent a name, city, country, description, product title, etc.
+</p>
+<p>
+    Strings have to start with a double quote " and end with one.
+</p>
+<p>
+    Forgetting the double quotes around strings is the most common mistake that beginners make.
+</p>
+<p>
+    .length is a property of strings that returns the number of characters in a string.
+</p>
+
+<h3>Chapter Two</h3>
+<p>
+    console.log() allows you to visualize your code in the console.
+</p>
+<p>
+    The console is only visible to you (the developer), but not the end-user.
+</p>
+<p>
+    console.log() helps you find bugs, does NOT replace return, and will never modify the result of a function, it will just show you a string or a number in the Console.
+</p>
+<p>
+    Sample usage is meant to show you examples of how your functions will be called.
+</p>
+<p>
+    We will often console.log the sample usage so that you can see its values in the console.
+</p>
+<p>
+    Beware of hardcoding - the sample usage is only meant as an example.
+</p>
+
+<h3>Chapter Three</h3>
+<p>
+    The .toUpperCase() method makes a new copy of a string while converting every single character into uppercase.
+</p>
+<p>
+    The .toLowerCase() method creates a copy of the string that is all in lower case.
+</p>
+<p>
+    Pay attention to the way those methods are called: .toUpperCase() with a capital U and capital C. Same for .toLowerCase() with a capital L and capital C.
+</p>
+<p>
+    The () at the end of the method are required.
+</p>
+
+<h3>Project Two</h3>
+<h4>Name Variations</h4>
+
+/** @param {string} name */
+export function getNumberOfChars(name) {
+// return the number of characters in: name
+return name.length
+}
+
+
+/** @param {string} name */
+export function getLower(name) {
+// return name all in lower case (example: "ABC" becomes "abc")
+return name.toLowerCase()
+}
+
+/** @param {string} name */
+export function getUpper(name) {
+// return name all in upper case (example: "abc" becomes "ABC")
+return name.toUpperCase()
+}
+
+</body>
+</html>
